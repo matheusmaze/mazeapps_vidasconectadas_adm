@@ -1,0 +1,154 @@
+{
+  "dashboard": {
+    "badges": [
+      {
+        "id": 1,
+        "name": "Acessos Hoje",
+        "value": 40
+      },
+      {
+        "id": 2,
+        "name": "Acessos no Mês",
+        "value": 140
+      },
+      {
+        "id": 3,
+        "name": "Usuários",
+        "value": 240
+      },
+      {
+        "id": 4,
+        "name": "Produtos",
+        "value": 30
+      }
+    ],
+    "graphs": [
+      {
+        "labels": [
+          "Outubro",
+          "Novembro",
+          "Dezembro",
+          "Janeiro",
+          "Fevereiro"
+        ],
+        "values": [
+          200,
+          250,
+          300,
+          500,
+          0
+        ],
+        "name": "Quantidade de usuários nos ultimos meses.",
+        "type": "line"
+      },
+      {
+        "labels": [
+          "15",
+          "18",
+          "22",
+          "26",
+          "30"
+        ],
+        "values": [
+          2,
+          300,
+          14,
+          13,
+          22
+        ],
+        "name": "Faixa etária dos usuários.",
+        "type": "line"
+      }
+    ]
+  },
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Destilados",
+      "descricao": "Produtos Destilados"
+    },
+    {
+      "id": 2,
+      "nome": "Vinhos",
+      "descricao": "Vinho Tinto & Vinho Branco"
+    },
+    {
+      "nome": "Gelados",
+      "descricao": "Bebidas com baixa temperatura",
+      "id": 3
+    },
+    {
+      "nome": "Gelados",
+      "descricao": "Bebidas com baixa temperatura.",
+      "id": 4
+    },
+    {
+      "nome": "Frios",
+      "descricao": "Bebidas com baixa temperatura.",
+      "id": 5
+    },
+    {
+      "nome": "Matheus ",
+      "descricao": "viadinho",
+      "id": 6
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 1,
+      "tipo_pagamento": "Cartão",
+      "addresss_id": 1,
+      "wallets_id": 1,
+      "observacao": "Chamar duas vezes.",
+      "tipo_entrega": 1,
+      "cards_id": 1
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Cerveja",
+      "descricao": "Cerveja Gelada",
+      "preco": 10,
+      "foto": "https://savegnago.vteximg.com.br/arquivos/ids/285576-375-375/CERVEJA-EISENBAHN-350ML-LT-PILSEN.jpg?v=636493683969770000",
+      "categorias_id": 1,
+      "qtd_max": 1,
+      "is_promocao": 1,
+      "validade_promocao": "10-10-2021T223432432"
+    },
+    {
+      "id": 2,
+      "nome": "Vinho",
+      "descricao": "Vinho Tinto",
+      "preco": 20,
+      "foto": "https://www.vinicolacampestre.com.br/wp-content/uploads/2019/07/Bord%C3%B4-suave-1.jpg",
+      "categorias_id": 1,
+      "qtd_max": 1,
+      "is_promocao": 0,
+      "validade_promocao": "2021-10-10"
+    }
+  ],
+  "promocoes": [
+    {
+      "id": 1,
+      "nome": "Cerveja",
+      "descricao": "Cerveja Gelada",
+      "preco": 10,
+      "foto": "https://savegnago.vteximg.com.br/arquivos/ids/285576-375-375/CERVEJA-EISENBAHN-350ML-LT-PILSEN.jpg?v=636493683969770000",
+      "categorias_id": 1,
+      "qtd_max": 1,
+      "qtd_min": 2,
+      "is_promocao": 1,
+      "validade_promocao": "10/10/2021"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Miguel",
+      "email": "miguel@email.com",
+      "telefone": "359 9999-9999",
+      "cpf": "111.111.111-11"
+    }
+  ]
+}
