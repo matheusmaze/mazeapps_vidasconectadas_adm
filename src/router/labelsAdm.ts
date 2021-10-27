@@ -53,29 +53,6 @@ const List = [
     component: () => import("../views/Adm/Doacoes/index.vue"),
   },
 
-  //Instituições
-  {
-    icon: "briefcase",
-    label: "Instituições",
-    name: "Adm/Instituições",
-    path: "/adm/instituicoes",
-    component: () => import("../views/Adm/Instituicoes/index.vue")
-  },
-
-  {
-    show: false,
-    name: "Adm/Instituicoes/Criar",
-    path: "/adm/instituicoes/criar",
-    component: () => import("../views/Adm/Instituicoes/create.vue")
-  },
-
-  { 
-    show: false,
-    name: "Adm/Instituicoes/Editar", 
-    path: "/adm/instituicoes/editar/:id?", 
-    component: () => import('../views/Adm/Instituicoes/update.vue') 
-  },
-
   //compras
   {
     icon: "dollar",
